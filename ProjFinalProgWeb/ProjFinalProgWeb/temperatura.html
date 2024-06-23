@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/temperatura.css">
+    <title>Converter temperaturas</title>
+    <li><a href="index.html" id="menu">Menu</a></li>
+</head>
+<body>
+    <div class="form">
+    <h1>Conversor de temperatura</h1>
+    <div id="input">
+        <h3>De:</h3>
+        <input type="number" id="inputNumero" placeholder="Valor">
+        <select class="select" id="inputSelect">
+            <option id="optCelsius" value="celsius">Celsius</option>
+            <option id="optFahrenheit" value="fahrenheit">Fahrenheit</option>
+            <option id="optKelvin" value="kelvin">kelvin</option>  
+        </select><br> 
+        <button id="btConvert" onclick="pegarValor()">Converter</button>
+    </div>
+    
+    <div id="outPut"></div>
+    <h3>Para:</h3>
+    <input readonly type="number" id="outputNumero" placeholder="Valor convertido">
+    <select class="select" id="outputSelect">
+        <option id="optQuilogramas" value="celsius">Celsius</option>
+        <option id="optGramas" value="fahrenheit">Fahrenheit</option>
+        <option id="optLibras" value="kelvin">Kelvin</option>
+    </select>
+</div>
+    <script src= js/temperatura.js ></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+body{ background-color: blueviolet;
+
+}
+#menu{ font-family: "Tiny5", sans-serif;
+    font-size: 11pt;
+   background-color:black;
+   text-decoration: white;
+   color: white;
+
+
+}
+
+
+main{
+
+    display:flex;
+    flex-direction: column;
+    
+    padding: 10px;
+    height: 400px;
+    gap: 3px;
+    background-color:	#4B0082;
+    border:solid;
+    border-color: black;
+   
+}
+
+#limpar{
+
+ font-size: 11pt;
+ background-color:black;
+ text-decoration: white;
+ color: white;
+
+}
+
+#gerar{
+ 
+ font-size: 11pt;
+ background-color:black;
+ text-decoration: white;
+ color: white;
+
+}
+
+
+#resultado{
+  
+    font-size: 11pt;
+    background-color:black;
+    text-decoration: white;
+    color: white;
+
+}
+
+
+
+
+
+#mensagem{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39pt;
+    background-color: black;
+    border:solid ;
+    color: white;
+    
+
+}
+
+h1{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39pt;
+
+    margin-right: 215px;
+    color: white;
+}
+
+
